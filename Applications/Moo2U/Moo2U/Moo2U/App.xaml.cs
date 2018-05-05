@@ -29,6 +29,7 @@ namespace Moo2U {
             // You can use the ThreadHelper in other classes to determine if the code is running on the main thread.
             // This is good for understanding async await & Tasks
             // var onCurrentThread = ThreadHelper.IsOnMainThread;
+            LiveReload.Init();
 
             ThreadHelper.Initialize(Environment.CurrentManagedThreadId);
         }
