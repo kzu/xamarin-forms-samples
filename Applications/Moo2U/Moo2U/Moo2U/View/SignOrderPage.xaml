@@ -30,9 +30,11 @@
             ClearTextColor="{StaticResource MangoDarkColor}"
             BackgroundColor="{StaticResource SignaturePadColor}"
             CaptionText="Sign For Order"
-            CaptionTextColor="{StaticResource TextColor}"
+            CaptionTextColor="{StaticResource TextColor}"/>
+            <!-- These two attributes fail in XamlC for some reason
             StrokeColor="Black"
-            StrokeWidth="2" />
+            StrokeWidth="2" 
+            -->
 
         <Grid
             Margin="20,0"
