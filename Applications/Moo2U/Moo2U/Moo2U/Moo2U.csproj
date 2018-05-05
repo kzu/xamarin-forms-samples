@@ -26,4 +26,10 @@
     <Compile Update="**\SignOrderPageViewModel.cs" DependentUpon="SignOrderPage.xaml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="Styles\Global.xaml">
+      <Generator></Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>
