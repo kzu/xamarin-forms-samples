@@ -20,7 +20,7 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <JavaMaximumHeapSize />
@@ -57,25 +57,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Infragistics.XF.Charts">
-      <Version>17.2.1051</Version>
-    </PackageReference>
-    <PackageReference Include="Infragistics.XF.Gauges">
-      <Version>17.2.1051</Version>
-    </PackageReference>
-    <PackageReference Include="SignaturePad.Xamarin.Forms.PCL">
-      <Version>1.0.0.1</Version>
-    </PackageReference>
-    <PackageReference Include="sqlite-net-pcl">
-      <Version>1.4.118</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="26.1.0.1" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="26.1.0.1" />
-    <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.362" />
+    <PackageReference Include="Infragistics.XF.Charts" Version="18.1.14" />
+    <PackageReference Include="Infragistics.XF.Gauges" Version="18.1.14" />
+    <PackageReference Include="SignaturePad.Xamarin.Forms.PCL" Version="1.0.0.1" />"
+    <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.427558-pre4" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.*" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.*" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="25.*" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.*" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.*" />
+    <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileHelper.cs" />

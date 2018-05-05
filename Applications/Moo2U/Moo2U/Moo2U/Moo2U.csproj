@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,12 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Infragistics.XF.Charts" Version="17.2.1051" />
-    <PackageReference Include="Infragistics.XF.Gauges" Version="17.2.1051" />
+    <PackageReference Include="Infragistics.XF.Charts" Version="18.1.14" />
+    <PackageReference Include="Infragistics.XF.Gauges" Version="18.1.14" />
     <PackageReference Include="SignaturePad.Xamarin.Forms.PCL" Version="1.0.0.1" />
     <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
-    <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.362" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.427558-pre4" />
+    <PackageReference Include="Prism.Unity.Forms" Version="7.0.0.396" />
+    <PackageReference Include="Xamarin.LiveReload" Version="0.3.8-dev" />
   </ItemGroup>
 
   <ItemGroup Label="ViewModels">
@@ -24,4 +25,5 @@
     <Compile Update="**\SeedDatabasePageViewModel.cs" DependentUpon="SeedDatabasePage.xaml" />
     <Compile Update="**\SignOrderPageViewModel.cs" DependentUpon="SignOrderPage.xaml" />
   </ItemGroup>
+
 </Project>
